@@ -17,7 +17,8 @@ body {
 
 /* this is used to box everything together to set size and margin */
 .container {
-    width: 500px;
+    /* for container we want to do %, this allows the text to change size base on the website size */
+    width: 80%;
     /* auto sets the margin the same for all sides */
     margin: auto;
 }
