@@ -267,6 +267,58 @@ This is a <b> bold </b> aligned to centre paragraph.
                 </tr>
             </tbody>
         </table>
+
+        <br>
+        <!-- Forms (html can only make the look, to make it function we need to programming languages) -->
+        <form action="process.php" method="POST"> <!-- more advanced form functions related to servers -->
+            <!-- (value) just add a text in the input field but (placeholder) add grayed out text that is only displayed -->
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" value="Enter first name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" placeholder="Enter last name">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <!-- text box can be type long massages and change size manually -->
+            <div>
+                <label>Massage</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <!-- dropbox -->
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <!-- number input box with arrows to change the value (value: sets the default number in the box) -->
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <!-- drop box for date/a data selector -->
+            <div>
+                <label>Birthday</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <!-- submit the values in the input boxes to process.php as stated in <form> -->
+            <input type="submit" name="submit" value="Submit"> 
+        </form>
+
         <!-- this line adds white space at the bottom of the website -->
         <div style="margin-top: 500px"></div>
     </body>
