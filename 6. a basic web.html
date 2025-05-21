@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first web</title>
 </head>
+<!-- add in id for different blocks to differentiate -->
 <body>
     <!-- the header of the website -->
-    <header>
+    <header id="main-header">
         <h1> Header </h1>
     </header>
     <!-- the nevigation bar -->
@@ -22,6 +23,7 @@
             <input type="submit" value="Go!">
          </form>
      </nav>
+     <!-- change main to section and remove the section before <h3> -->
      <main>
         <article>
             <h2> Article Heading </h2>
@@ -37,16 +39,20 @@
                 <p> more and more words </p>
             </section>
         </article>
+        <!-- have to use CSS to make them go to the side -->
         <aside>
             <h2> related </h2>
-            <ul>
-                <li> <a href="#">related?</a> </li>
-                <li> <a href="#">is it?</a> </li>
-            </ul>
+            <nav>
+                <ul>
+                    <!-- # means the link go to the same page -->
+                    <li> <a href="#">related?</a> </li>
+                    <li> <a href="#">is it?</a> </li>
+                </ul>
+            </nav>
         </aside>
      </main>
-     <footer>
-        <p> ©copyright </p>
+     <footer id="main-footer">
+        <p> © &copy; copyright </p>
      </footer>
 </body>
 </html>
