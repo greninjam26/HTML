@@ -1,0 +1,15 @@
+body {
+    /* color names, HTML5 color names, hexdecimal values, RGB values */
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    /* the default font size */
+    font-size: 16px;
+    font-weight: normal;
+    /* alternative */
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+    /* space between lines */
+    line-height: 1.6em;
+}
