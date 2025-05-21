@@ -11,6 +11,10 @@
 <!-- for just generate random text for testing do: (type)lorem (tab) {to control the number of words generated add a number after}-->
 <!-- to generate a complete tag: (type)[name of the tag] (tab) -->
 <!-- F12 to check the code and information for a website in chrome -->
+<!-- Absolutly no style in the head of the tag -->
+<!-- No the best way to use <style> in the head of the HTML but it is better -->
+<!-- we do want to keep the HTML file short and function and style seperate -->
+<!-- use a CSS file to import the style to HTML -->
 <html lang="en-US"> <!-- this helps the search engines -->
     <head>
         <!-- this sets the character set of this document to utf-8 -->
@@ -36,6 +40,7 @@
         <!-- connect JavaScript file to HTML -->
         <script src="my-js-file.js" defer></script>
         <!-- add CSS file to HTML for styling -->
+        <!-- YESSSSSSS this is the best way to do CSS -->
         <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
 
         <title>
@@ -44,10 +49,12 @@
     </head>
     <body>
         <a href="6. a basic web.html"> Go to the basic web</a>
+        <!-- NOOOOOO style -->
         <h1 style="font-size:60px;">
             Bigger Heading
         </h1>
         <!-- "span" is used to apple CSS and JavaScript to HTML without giving it extra meaning -->
+        <!-- NOOOOOOO style -->
         <span style="font-size: 32px; margin: 21px 0; display: block;">
             Is this a top level heading?
           </span>
