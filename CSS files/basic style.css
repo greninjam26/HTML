@@ -12,4 +12,17 @@ body {
 
     /* space between lines */
     line-height: 1.6em;
+    margin: 0;
+}
+
+/* this is used to box everything together to set size and margin */
+.container {
+    width: 500px;
+    /* auto sets the margin the same for all sides */
+    margin: auto;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
 }
