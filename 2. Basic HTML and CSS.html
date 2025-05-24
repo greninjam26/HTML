@@ -9,7 +9,7 @@
     <p class="editer-note"> hello </p>
 
 -->
-    <!-- the root file or home file of a website is always named as index.html -->
+<!-- the root file or home file of a website is always named as index.html -->
 <!-- even if there are no tags at all, just by typing text in a html file they will be displayed -->
 <!-- for just generate random text for testing do: (type)lorem (tab) {to control the number of words generated add a number after}-->
 <!-- to generate a complete tag: (type)[name of the tag] (tab) -->
@@ -18,23 +18,30 @@
 <!-- No the best way to use <style> in the head of the HTML but it is better -->
 <!-- we do want to keep the HTML file short and function and style seperate -->
 <!-- use a CSS file to import the style to HTML -->
-<html lang="en-US"> <!-- this helps the search engines -->
+
+<!-- lang= helps the search engines -->
+<html lang="en-US">
     <head>
         <!-- this sets the character set of this document to utf-8 -->
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <!-- this ensures the page is displayed the same size as monitor, preventing mobile browsers render the page wider then shrink it down -->
         <meta name="viewport" content="width=device-width" />
-        <meta name="author" content="Gavin">
+        <meta name="author" content="Gavin" />
         <!-- google scans description and keywords when searching -->
-        <meta name="description" content="basic knowledge and command of HTML and CSS">
-        <meta name="keywords" content="website design, HTML, CSS, commands">
-        <!-- this is not working, it purpose to add image and text to the link. It might be because it is related to facebook -->
-        <meta 
-        property="og:image"
-        content="https://www.google.com/imgres?q=pokemon&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F98%2FInternational_Pok%25C3%25A9mon_logo.svg%2F640px-International_Pok%25C3%25A9mon_logo.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPok%25C3%25A9mon&docid=VWc1sn0WEVMNkM&tbnid=GsezoCrHMwCxoM&vet=12ahUKEwit6NSv592MAxUENzQIHZDNCiwQM3oECBgQAA..i&w=640&h=235&hcb=2&ved=2ahUKEwit6NSv592MAxUENzQIHZDNCiwQM3oECBgQAA" />
         <meta
-        property="og:description"
-        content="This website provide all englsih version of pokemon animes" />
+            name="description"
+            content="basic knowledge and command of HTML and CSS"
+        />
+        <meta name="keywords" content="website design, HTML, CSS, commands" />
+        <!-- this is not working, it purpose to add image and text to the link. It might be because it is related to facebook -->
+        <meta
+            property="og:image"
+            content="https://www.google.com/imgres?q=pokemon&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F98%2FInternational_Pok%25C3%25A9mon_logo.svg%2F640px-International_Pok%25C3%25A9mon_logo.svg.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPok%25C3%25A9mon&docid=VWc1sn0WEVMNkM&tbnid=GsezoCrHMwCxoM&vet=12ahUKEwit6NSv592MAxUENzQIHZDNCiwQM3oECBgQAA..i&w=640&h=235&hcb=2&ved=2ahUKEwit6NSv592MAxUENzQIHZDNCiwQM3oECBgQAA"
+        />
+        <meta
+            property="og:description"
+            content="This website provide all englsih version of pokemon animes"
+        />
         <meta property="og:title" content="Pokemon Series" />
 
         <!-- icon for the head with favicon.ico file -->
@@ -44,39 +51,28 @@
         <script src="my-js-file.js" defer></script>
         <!-- add CSS file to HTML for styling -->
         <!-- YESSSSSSS this is the best way to do CSS -->
-        <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/html/styles.css"
+        />
 
-        <title>
-            HTML and CSS Basic
-        </title>
+        <title>HTML and CSS Basic</title>
     </head>
     <body>
         <a href="6. a basic web.html"> Go to the basic web</a>
         <!-- NOOOOOO style -->
-        <h1 style="font-size:60px;">
-            Bigger Heading
-        </h1>
+        <h1 style="font-size: 60px">Bigger Heading</h1>
         <!-- "span" is used to apple CSS and JavaScript to HTML without giving it extra meaning -->
         <!-- NOOOOOOO style -->
-        <span style="font-size: 32px; margin: 21px 0; display: block;">
+        <span style="font-size: 32px; margin: 21px 0; display: block">
             Is this a top level heading?
-          </span>
-          
-        <h1>
-            Heading 1
-        </h1>
-        <h2>
-            Heading 2
-        </h2>
-        <h3>
-            Heading 3
-        </h3>
-        <p>
-            Paragraph.
-        </p>
-        <p> 
-            Another paragraph. 
-        </p>
+        </span>
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <p>Paragraph.</p>
+        <p>Another paragraph.</p>
         <!--
         target=""
 
@@ -87,16 +83,14 @@
 
         -->
         <!-- dose nothing without href -->
-        <a>
-            testing
-        </a>
+        <a> testing </a>
         <a href="https://www.pokeflix.tv/upcoming/" target="_top">
             This is a link.
         </a>
-        <a href="https://www.pokeflix.tv/" title="An &quot;interesting&quot; site">A link to pokemon.</a>
-        <p>
-            This is<br>a paragraph<br>with a line break. 
-        </p>
+        <a href="https://www.pokeflix.tv/" title='An "interesting" site'
+            >A link to pokemon.</a
+        >
+        <p>This is<br />a paragraph<br />with a line break.</p>
         <!--
                 <	&lt;
                 >	&gt;
@@ -105,15 +99,13 @@
                 &	&amp;
         -->
         <p title="I'm a tooltip">
-            This is a paragraph with title. It also have a horizonal line under it. 
+            This is a paragraph with title. It also have a horizonal line under
+            it.
         </p>
-        <hr>
+        <hr />
         <p>
-            This paragraph
-            contains         a lot of spaces
-            in the source         code,
-            but the        browser
-            ignores it.
+            This paragraph contains a lot of spaces in the source code, but the
+            browser ignores it.
         </p>
         <pre>
             My Bonnie  lies over the ocean.
@@ -128,61 +120,39 @@ This is a paragraph have follow the format of the souce.
             This also keeps the indent. 
         </pre>
         <!-- style can be used no than once in one paragraph for some reason -->
-        <p style="color:rgb(255, 0, 0);"> <!--or the do color:red-->
-            This is a red paragraph. 
+        <p style="color: rgb(255, 0, 0)">
+            <!--or the do color:red-->
+            This is a red paragraph.
         </p>
-        <p style="background-color: aqua;" >
-            This is a paragraph with aqua background color. 
+        <p style="background-color: aqua">
+            This is a paragraph with aqua background color.
         </p>
-        <p style="border:2px solid red;">
-            This is a bordered paragraph. 
+        <p style="border: 2px solid red">This is a bordered paragraph.</p>
+        <p style="font-family: 'Courier New', Courier, monospace">
+            This is a paragraph with a different font.
         </p>
-        <p style="font-family: 'Courier New', Courier, monospace;">
-            This is a paragraph with a different font. 
+        <p style="font-size: 300%">
+            This is a paragraph with different font size.
         </p>
-        <p style="font-size: 300%;">
-            This is a paragraph with different font size. 
+        <p style="text-align: center">
+            This is a <b> bold </b> aligned to centre paragraph.
         </p>
-        <p style="text-align: center;">
-This is a <b> bold </b> aligned to centre paragraph. 
-        </p><!-- this ends the paragraph and switch to the next line for the start of the next paragraph-->
+        <!-- this ends the paragraph and switch to the next line for the start of the next paragraph-->
         <!-- These does not make a paragraph, they will be on the same line as other blocks -->
-         <!-- <b> <i> <u> is developed when CSS is not really compatible with HTML, we shouldn't be using them anymore they have not meaning -->
-        <b>
-            This is bold. 
-        </b>
-        <strong>
-            This is important(apparently). 
-        </strong>
-        <i>
-            This text is italic. 
-        </i>
-        <em>
-            This text is emphasized(apparently). 
-        </em>
-        <small>
-            This is a smaller text. 
-        </small>
-        <mark>
-            This is marked or highlighted. 
-        </mark>
-        <del>
-            This is a deleted text. 
-        </del>
-        <ins>
-            This is an underlined text. 
-        </ins>
-        <sub>
-            subscripted
-        </sub>
-        <sup>
-            superscripted
-        </sup>
+        <!-- <b> <i> <u> is developed when CSS is not really compatible with HTML, we shouldn't be using them anymore they have not meaning -->
+        <b> This is bold. </b>
+        <strong> This is important(apparently). </strong>
+        <i> This text is italic. </i>
+        <em> This text is emphasized(apparently). </em>
+        <small> This is a smaller text. </small>
+        <mark> This is marked or highlighted. </mark>
+        <del> This is a deleted text. </del>
+        <ins> This is an underlined text. </ins>
+        <sub> subscripted </sub>
+        <sup> superscripted </sup>
 
-        <br>
-        <p>
-            At Mozilla, we're a global community of
-        </p>
+        <br />
+        <p>At Mozilla, we're a global community of</p>
         <!-- dot in at the front -->
         <ul>
             <li>technologists</li>
@@ -196,63 +166,62 @@ This is a <b> bold </b> aligned to centre paragraph.
             <li>builders</li>
         </ol>
         <!-- nesting lists -->
-         <ul>
-            <li> first line </li>
+        <ul>
+            <li>first line</li>
             <ol>
-                <li> second line </li>
-                <li> third line </li>
+                <li>second line</li>
+                <li>third line</li>
             </ol>
             <li>
                 fourth line
                 <ol>
-                    <li> sub line </li>
+                    <li>sub line</li>
                 </ol>
             </li>
-            <li> last line </li>
-         </ul>
+            <li>last line</li>
+        </ul>
         <!-- discription lists -->
         <dl>
-            <dt> Greninja </dt>
+            <dt>Greninja</dt>
+            <dd>Frog pokemon. Water and Dark type.</dd>
+            <dd>Signture move: Water Shuriken</dd>
+            <dt>Ash-Greninja</dt>
             <dd>
-                Frog pokemon. Water and Dark type. 
+                Frog pokemon. Water and Dark type. A unique form of greninja
+                appears when it have a strong bond and in sync with Ash.
             </dd>
+            <dd>Signture move: Water Shuriken (a big one)</dd>
+            <dt>Lucario</dt>
             <dd>
-                Signture move: Water Shuriken
+                Aura pokemon. Fighting and Steel type. By using its Aura,
+                Lucario and detect the movement and feeling of living beings
+                around them. It is also one of the few pokemon that can mega
+                evolve.
             </dd>
-            <dt> Ash-Greninja </dt>
-            <dd>
-                Frog pokemon. Water and Dark type. 
-                A unique form of greninja appears when it have a strong bond and in sync with Ash. 
-            </dd>
-            <dd>
-                Signture move: Water Shuriken (a big one)
-            </dd>
-            <dt> Lucario </dt>
-            <dd> 
-                Aura pokemon. Fighting and Steel type. 
-                By using its Aura, Lucario and detect the movement and feeling of living beings around them. 
-                It is also one of the few pokemon that can mega evolve. 
-            </dd>
-            <dd>
-                Signture move: Aura Sphere
-            </dd>
+            <dd>Signture move: Aura Sphere</dd>
         </dl>
-        <input type="text">
-        <br>
-        <input type="text" disabled="disabled">
-        <br>
+        <input type="text" />
+        <br />
+        <input type="text" disabled="disabled" />
+        <br />
         <!--not really working-->
         <!--<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">-->
         <!--this image have to be in the same folder, if the image is in a different folder we need to add the path-->
         <!-- width and height is not suggested, CSS is better -->
         <!-- add <a> around the image to make it a link to click -->
-        <img src="Ash-Greninja.jpeg" alt="Ash-Greninja" width="500" height="600">
+        <img
+            src="Ash-Greninja.jpeg"
+            alt="Ash-Greninja"
+            width="500"
+            height="600"
+        />
         <!-- example of how to add in other language to HTML and make the browser recognize them -->
         <p>Japanese example: <span lang="ja">ご飯が熱い。</span>.</p>
         <!-- DO NOT USE table for layouts, use CSS -->
         <table>
             <thead>
-                <tr> <!-- table row -->
+                <tr>
+                    <!-- table row -->
                     <!-- table head -->
                     <th>Name</th>
                     <th>Type</th>
@@ -283,31 +252,36 @@ This is a <b> bold </b> aligned to centre paragraph.
             </tbody>
         </table>
 
-        <br>
+        <br />
         <!-- Forms (html can only make the look, to make it function we need to programming languages) -->
-        <form action="process.php" method="POST"> <!-- more advanced form functions related to servers -->
+        <form action="process.php" method="POST">
+            <!-- more advanced form functions related to servers -->
             <!-- (value) just add a text in the input field but (placeholder) add grayed out text that is only displayed -->
             <div>
                 <label>First Name</label>
-                <input type="text" name="firstName" value="Enter first name">
+                <input type="text" name="firstName" value="Enter first name" />
             </div>
-            <br>
+            <br />
             <div>
                 <label>Last Name</label>
-                <input type="text" name="lastName" placeholder="Enter last name">
+                <input
+                    type="text"
+                    name="lastName"
+                    placeholder="Enter last name"
+                />
             </div>
-            <br>
+            <br />
             <div>
                 <label>Email</label>
-                <input type="email" name="email">
+                <input type="email" name="email" />
             </div>
-            <br>
+            <br />
             <!-- text box can be type long massages and change size manually -->
             <div>
                 <label>Massage</label>
                 <textarea name="message"></textarea>
             </div>
-            <br>
+            <br />
             <!-- dropbox -->
             <div>
                 <label>Gender</label>
@@ -317,35 +291,39 @@ This is a <b> bold </b> aligned to centre paragraph.
                     <option value="other">Other</option>
                 </select>
             </div>
-            <br>
+            <br />
             <!-- number input box with arrows to change the value (value: sets the default number in the box) -->
             <div>
                 <label>Age</label>
-                <input type="number" name="age" value="30">
+                <input type="number" name="age" value="30" />
             </div>
-            <br>
+            <br />
             <!-- drop box for date/a data selector -->
             <div>
                 <label>Birthday</label>
-                <input type="date" name="birthday">
+                <input type="date" name="birthday" />
             </div>
-            <br>
+            <br />
             <!-- submit the values in the input boxes to process.php as stated in <form> -->
-            <input type="submit" name="submit" value="Submit"> 
+            <input type="submit" name="submit" value="Submit" />
         </form>
 
         <!-- buttons, they do nothing without javascript -->
         <button>Click Me</button>
 
-        <br>
+        <br />
         <!-- quotes -->
         <blockquote cite="hi">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum magni aperiam illum, eius nobis eum sint, exercitationem, nemo veniam aut sed? Aspernatur iste cupiditate aut cum sapiente doloremque nobis aperiam?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
+            magni aperiam illum, eius nobis eum sint, exercitationem, nemo
+            veniam aut sed? Aspernatur iste cupiditate aut cum sapiente
+            doloremque nobis aperiam?
         </blockquote>
         <!-- <abbr> underlines the text and when hoverover display the title -->
         <!-- <cite> makes the text italics to show it is being cited -->
         <p>
-            The <abbr title="Normal">NRM</abbr> type is most neutral in <cite>pokémon</cite>
+            The <abbr title="Normal">NRM</abbr> type is most neutral in
+            <cite>pokémon</cite>
         </p>
 
         <!-- this line adds white space at the bottom of the website -->
