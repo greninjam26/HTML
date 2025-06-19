@@ -1,4 +1,10 @@
-h2 {
+/* 
+select class(we need it multiple times) with .
+select id(can't reuse) with # 
+always do class just incase we need another one in the future
+*/
+
+h1 {
     text-transform: uppercase;
     font-style: italic;
     text-align: center;
@@ -42,4 +48,15 @@ body {
     border-width: 3px;
     border-bottom-width: 10px;
     border-top-style: dotted;
+}
+/* .box-1 h1 {
+    color: lightgreen;
+} */
+
+#heading {
+    color: lightgreen;
+}
+
+ul {
+    list-style: georgian;
 }
