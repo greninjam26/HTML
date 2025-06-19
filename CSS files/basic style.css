@@ -1,3 +1,9 @@
+h2 {
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+}
+
 body {
     /* color names, HTML5 color names, hexdecimal values, RGB values */
     background-color: #f4f4f4;
