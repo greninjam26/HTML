@@ -2,6 +2,12 @@
 select class(we need it multiple times) with .
 select id(can't reuse) with # 
 always do class just incase we need another one in the future
+RGBA (red, green, blue, transparence)
+CSS use hexadecimal more
+#00ffff cyan
+ R G B
+short hand: #0ff
+             RGB
 */
 
 h1 {
@@ -54,7 +60,7 @@ body {
 } */
 
 #heading {
-    color: lightgreen;
+    color: cyan;
 }
 
 ul {
