@@ -1,6 +1,14 @@
 /* 
-select class(we need it multiple times) with .
-select id(can't reuse) with # 
+priority(if there are styles on the same level the last one have the priority): 
+    !important (usually not used, it is a last resort)
+    inline HTML style
+    id selector: #[name]
+    class selector: .[name]
+ or pseudo class selector: :[name]
+    element selector: [name]
+    universal selecter: *
+class(we need it multiple times)
+id(can't reuse)
 always do class just incase we need another one in the future
 RGBA (red, green, blue, transparence)
 CSS use hexadecimal more
@@ -43,7 +51,8 @@ body {
 
 .box-1 {
     background-color: #333;
-    color: #fff;
+    /* don't do this not a great way but it forces this style to be displayed*/
+    color: #fff !important; 
 
     border-right: 5px red solid;
     border-left: 5px red solid;
