@@ -7,6 +7,7 @@ priority(if there are styles on the same level the last one have the priority):
  or pseudo class selector: :[name]
     element selector: [name]
     universal selecter: *
+universal selecter selects everyone single elements in the web. (no inheritance)
 class(we need it multiple times)
 id(can't reuse)
 always do class just incase we need another one in the future
@@ -23,7 +24,8 @@ h1 {
     font-style: italic;
     text-align: center;
 }
-
+/* inheritance */
+/* by add style to the body, it inherits to all the elements in the body */
 body {
     /* color names, HTML5 color names, hexdecimal values, RGB values */
     background-color: #f4f4f4;
