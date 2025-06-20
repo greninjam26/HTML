@@ -79,3 +79,26 @@ li:last-child {
 li:nth-child(2) {
     color: red;
 }
+
+/* This is the order for these four styling */
+/* the way to style hyperlinks */
+/* not all <a> are links */
+a:link {
+    color: cyan;
+    text-decoration: none;
+}
+/* link you visited */
+a:visited {
+    color: goldenrod;
+}
+/* link you are hovering over */
+a:hover {
+    color: sandybrown;
+    font-weight: bold;
+    text-decoration: underline wavy sandybrown;
+}
+/* link you are clicking on */
+a:active {
+    background-color: black;
+    font-style: italic;
+}
