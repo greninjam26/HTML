@@ -56,12 +56,12 @@ body {
     /* don't do this not a great way but it forces this style to be displayed*/
     color: #fff !important; 
 
-    border-right: 5px red solid;
-    border-left: 5px red solid;
-    border-top: 5px red solid;
-    border-bottom: 5px red solid;
+    border-right: 5px solid red solid;
+    border-left: 5px solid red solid;
+    border-top: 5px solid red solid;
+    border-bottom: 5px solid red solid;
     /* same as above */
-    border: 5px red solid;
+    border: 5px solid red solid;
     border-width: 3px;
     border-bottom-width: 10px;
     border-top-style: dotted;
