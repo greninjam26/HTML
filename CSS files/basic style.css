@@ -23,9 +23,20 @@ padding is the space inside the border
 margin is the space outside the border
 do margin-top or margin-bottom to space elements, keep it consistent
 when there are multiple margin in the same area they will overlap each other
-when adding background color or background image, it will be using not only the content area, but everything within the border. 
+when adding background color or background image, 
+it will be using not only the content area, but everything within the border. 
 
-for width and height, if 100% is used is it always going to be the same size as the window
+for width and height, 
+if 100% is used is it always going to be the same size as the window
+
+width and height and top/bottom margin and padding don't work for inline elements
+padding will fill in the space top/bottom, but it will not shifts the elements, 
+it will cover up other elements
+
+when "display: inline-block;" it will have will be a block box, 
+but it will also be like inline boxes and only occupy the space it need 
+and there are also no line break
+image is a defult inline-block element
 */
 
 * {
@@ -58,7 +69,8 @@ body {
 
 /* this is used to box everything together to set size and margin */
 .container {
-    /* for container we want to do %, this allows the text to change size base on the website size */
+    /* for container we want to do %, 
+    this allows the text to change size base on the website size */
     width: 80%;
     /* auto sets the margin the same for all sides */
     margin: 0 auto;
@@ -119,6 +131,8 @@ li:nth-child(2) {
 a:link {
     color: cyan;
     text-decoration: none;
+    /* change the link to a block of text that take up the entire line of space */
+    display: block;
 }
 /* link you visited */
 a:visited {
