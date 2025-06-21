@@ -17,8 +17,19 @@ CSS use hexadecimal more
  R G B
 short hand: #0ff
              RGB
+
+Border is the border
+padding is the space inside the border
+margin is the space outside the border
+do margin-top or margin-bottom to space elements, keep it consistent
+when there are multiple margin in the same area they will overlap each other
+when adding background color or background image, it will be using not only the content area, but everything within the border. 
 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
 h1 {
     text-transform: uppercase;
     font-style: italic;
@@ -54,17 +65,19 @@ body {
 .box-1 {
     background-color: #333;
     /* don't do this not a great way but it forces this style to be displayed*/
-    color: #fff !important; 
+    color: #fff !important;
 
-    border-right: 5px solid red solid;
-    border-left: 5px solid red solid;
-    border-top: 5px solid red solid;
-    border-bottom: 5px solid red solid;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
     /* same as above */
-    border: 5px solid red solid;
-    border-width: 3px;
-    border-bottom-width: 10px;
+    border: 5px red solid;
     border-top-style: dotted;
+    /* same as border, can do the four sides */
+    padding: 20px;
+    /* with 2 numbers, the first is top/bottom, the second is left/right */
+    padding: 20px 40px;
 }
 /* .box-1 h1 {
     color: lightgreen;
@@ -76,6 +89,12 @@ body {
 
 ul {
     list-style: georgian;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 /* Pseudo classes */
@@ -85,6 +104,7 @@ li:first-child {
 
 li:last-child {
     font-style: italic;
+    margin-bottom: 0;
 }
 
 li:nth-child(2) {
