@@ -132,7 +132,7 @@ h1::after {
     display: inline-block;
     padding: 5px 10px;
     position: absolute;
-    top: -15;
+    top: -15px;
     right: -25px;
 }
 
