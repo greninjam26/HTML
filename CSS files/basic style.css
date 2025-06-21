@@ -37,6 +37,13 @@ when "display: inline-block;" it will have will be a block box,
 but it will also be like inline boxes and only occupy the space it need 
 and there are also no line break
 image is a defult inline-block element
+
+Normal flow is the default position of elements in html
+or we can archieve this by setting "position:relative"
+Abosolute positioning is a way to make an element "out of flow"
+this makes the element have a impact on the surrounding elements
+(could overlap with the surrounding)
+to archieve this by setting "position:absolute"
 */
 
 * {
@@ -65,6 +72,10 @@ body {
     /* space between lines */
     line-height: 1.6em;
     margin: 0;
+
+    /* ...by making the parent element(this case the body) to relative
+    this makes the botton not relative to the view board, but the parent element */
+    position: relative;
 }
 
 /* this is used to box everything together to set size and margin */
@@ -148,4 +159,16 @@ a:hover {
 a:active {
     background-color: black;
     font-style: italic;
+}
+/* absolute positioning */
+button {
+    font-size: 22px;
+    padding: 20px;
+    cursor: pointer;
+    position: absolute;
+    /* this is relative to the view board so the button will always be at the
+    top of the website 
+    to make this better check the body...*/
+    right: 10%;
+    bottom: 10%;
 }
