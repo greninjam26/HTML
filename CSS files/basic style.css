@@ -110,6 +110,8 @@ body {
 
 #heading {
     color: cyan;
+    /* change the spacing between letters */
+    letter-spacing: 2em;
 }
 /* psuedo elements :: use to modifiy elements we can't select with HTML*/
 h1::first-letter {
