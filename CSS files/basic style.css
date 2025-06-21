@@ -111,6 +111,30 @@ body {
 #heading {
     color: cyan;
 }
+/* psuedo elements :: use to modifiy elements we can't select with HTML*/
+h1::first-letter {
+    font-size: 50px;
+}
+/* this uses the "+" to select a sibling element, 
+which is the element with the same parent, and the right after */
+h1 + p::first-line {
+    color: red;
+}
+h1 {
+    position: relative;
+}
+h1::after {
+    /* we have to have this no matter if there are content or not */
+    content: "TOP";
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -15;
+    right: -25px;
+}
 
 ul {
     list-style: georgian;
