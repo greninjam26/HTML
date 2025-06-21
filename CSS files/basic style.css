@@ -24,6 +24,8 @@ margin is the space outside the border
 do margin-top or margin-bottom to space elements, keep it consistent
 when there are multiple margin in the same area they will overlap each other
 when adding background color or background image, it will be using not only the content area, but everything within the border. 
+
+for width and height, if 100% is used is it always going to be the same size as the window
 */
 
 * {
@@ -59,7 +61,7 @@ body {
     /* for container we want to do %, this allows the text to change size base on the website size */
     width: 80%;
     /* auto sets the margin the same for all sides */
-    margin: auto;
+    margin: 0 auto;
 }
 
 .box-1 {
