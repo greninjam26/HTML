@@ -1,3 +1,7 @@
+/* 
+first give different section of the web background color to tell where is everything at
+
+*/
 * {
     padding: 0;
     margin: 0;
@@ -47,4 +51,14 @@ with this after element added to the parent element what is collapsed, this fix 
     clear:both;
     content: '';
     display: block;
+}
+
+article {
+    background-color: lightgreen;
+}
+aside {
+    background-color: yellow;
+}
+footer {
+    background-color: aqua;
 }
