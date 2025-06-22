@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.nav ul {
+    margin: 15px;
+}
+/* 
+float allows the element to be "not of flow" with the page 
+and also not overlap with other elements, which will surround the floated element
+if all the elements in an element is floated then it will be treated as 
+there are no element when it comes to the width and height of the parent element
+(collapsed element)
+
+*/
+.author-img {
+    float: left;
+}
+.author-name {
+    float: left;
+    margin-left: 10px;
+}
