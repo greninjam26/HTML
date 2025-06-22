@@ -2,8 +2,14 @@
     padding: 0;
     margin: 0;
 }
-.nav ul {
+#main-header {
+    background-color: red;
+    color: orange;
+    margin: 10px;
+}
+.nav {
     margin: 15px;
+    float: right;
 }
 /* 
 float allows the element to be "not of flow" with the page 
@@ -19,4 +25,21 @@ there are no element when it comes to the width and height of the parent element
 .author-name {
     float: left;
     margin-left: 10px;
+}
+h1 {
+    float: left;
+}
+/* one way to allow the float elements to work 
+when all the elements in the parent element are floated */
+.clear {
+    clear: both;
+}
+/* this is widly used */
+/* the clear fix hack */
+/* this archieve the same thing but we don't need to create a new element
+with this after element added to the parent element what is collapsed, this fix it */
+.clearfix::after {
+    clear:both;
+    content: '';
+    display: block;
 }
