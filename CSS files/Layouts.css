@@ -5,6 +5,13 @@ first give different section of the web background color to tell where is everyt
 * {
     padding: 0;
     margin: 0;
+    /* this make the padding, border, 
+    and the width of the content the same as the set width
+    this helps with all the boxes getting pushed around when they gets too big
+
+    the default is the set width just the context width. (context-box)
+    */
+    box-sizing: border-box;
 }
 .container {
     font-family: sans-serif;
@@ -53,7 +60,11 @@ with this after element added to the parent element what is collapsed, this fix 
     display: block;
 }
 ul {
-    padding-left: 20px;
+    margin-left: 20px;
+}
+.related {
+    margin-left: 0px;
+    list-style: none;
 }
 article {
     background-color: lightgreen;
@@ -64,6 +75,9 @@ aside {
     background-color: yellow;
     width: 300px;
     float: right;
+    /* this causes the aside get pushed down because it is too big */
+    padding: 50px 40px;
+    /* box-sizing in the universal selector fix this issue */
 }
 footer {
     background-color: aqua;
