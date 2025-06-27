@@ -48,17 +48,24 @@ when all the elements in the parent element are floated */
 /* this archieve the same thing but we don't need to create a new element
 with this after element added to the parent element what is collapsed, this fix it */
 .clearfix::after {
-    clear:both;
-    content: '';
+    clear: both;
+    content: "";
     display: block;
 }
-
+ul {
+    padding-left: 20px;
+}
 article {
     background-color: lightgreen;
+    width: 825px;
+    float: left;
 }
 aside {
     background-color: yellow;
+    width: 300px;
+    float: right;
 }
 footer {
     background-color: aqua;
+    clear: both;
 }
