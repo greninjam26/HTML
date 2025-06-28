@@ -25,6 +25,17 @@
     justify-content: center;
     gap: 30px;
 }
+
+.el{
+    /* 
+    DEFAULT
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto; 
+    */
+    
+}
+
 .--1 {
     background-color: aqua;
     align-self: flex-start;
