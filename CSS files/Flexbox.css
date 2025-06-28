@@ -5,6 +5,7 @@
     margin: 40px;
 
     /* FlexBox */
+    /* all the order default is always 0 */
     /* flex items are the child elements of this container
     everything is as tall as the tallest one(so the height is 150px like --3) */
     display: flex;
@@ -22,9 +23,12 @@
     space-between: equally distribute the space between all the elements
     */
     justify-content: center;
+    gap: 30px;
 }
 .--1 {
     background-color: aqua;
+    align-self: flex-start;
+    order: 2;
 }
 .--2 {
     background-color: blue;
@@ -35,12 +39,15 @@
 }
 .--4 {
     background-color: violet;
+    align-self: stretch;
 }
 .--5 {
     background-color: yellow;
+    order: 1;
 }
 .--6 {
     background-color: green;
+    order: -1;
 }
 .--7 {
     background-color: pink;
