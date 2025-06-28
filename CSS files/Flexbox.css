@@ -3,6 +3,25 @@
     background-color: #ddd;
     font-size: 40px;
     margin: 40px;
+
+    /* FlexBox */
+    /* flex items are the child elements of this container
+    everything is as tall as the tallest one(so the height is 150px like --3) */
+    display: flex;
+    /* this causes each element to have its own height
+    
+    stretch(default): everything on the top and have the same height
+    center: everything centered vertically
+    flex-top: everything on the top
+    flex-bottom: everything on the bottom
+    
+    */
+    align-items: center;
+    /* 
+    center: center all the element in the container
+    space-between: equally distribute the space between all the elements
+    */
+    justify-content: center;
 }
 .--1 {
     background-color: aqua;
