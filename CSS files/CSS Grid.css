@@ -3,6 +3,23 @@
     background-color: #ddd;
     font-size: 40px;
     margin: 40px;
+
+    /* basic CSS grid */
+    display: grid;
+    /* this means we created 4 columns with these sizes */
+    /* the number of rows will be automaticly generated 
+    to fit all the elements */
+    /* every element in the same row will be the same height 
+    as the tallest element in the row */
+    grid-template-columns: 250px 250px 150px 150px;
+    /* this is for rows */
+    /* if an element have an already defined size it will not stretch */
+    grid-template-rows: 300px 200px;
+    /* this is the only to add space between grid
+    margin won't work */
+    /* gap: 30px */
+    column-gap: 30px;
+    row-gap: 60px;
 }
 
 .container2 {
