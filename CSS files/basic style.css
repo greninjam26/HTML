@@ -44,6 +44,9 @@ Abosolute positioning is a way to make an element "out of flow"
 this makes the element have a impact on the surrounding elements
 (could overlap with the surrounding)
 to archieve this by setting "position:absolute"
+
+display: none
+this compeletly removes the elements from the screen
 */
 
 * {
