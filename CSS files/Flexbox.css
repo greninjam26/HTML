@@ -27,13 +27,39 @@
 }
 
 .el{
+    /* for the flex properties always use flex: and not any of them individually */
     /* 
     DEFAULT
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto; 
+
+    flex: 0 1 auto;
     */
+
+    /* this set the size of each element to 100px, 
+    but is the element need more space the browser will automaticly extend
+    so this is not regid like width that forces the size to be 100px */
+    /* 
+    flex-basis: 100px; 
+    flex: 0 1 100px;
+    */
+
+    /* by default with flex-shrink: 1
+    this allows the flexbox to automaticly shrink the elements to fit the container
+    is flex-shrink can be disabled by setting to 0 */
+
+    /* this allows all the elements to grow to the same size 
+    and occupy all the space there is in the container 
+    if this is placed in one of the element, only that element will grow 
+    and occupy all the space 
     
+    if all the element are set to flex-grow: 1
+    but one element is set to flex-grow: 2
+    then this element will get double the remaining space compare to other elements
+    */
+    /* flex-grow: 1; */
+    flex: 1;
 }
 
 .--1 {
