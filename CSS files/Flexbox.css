@@ -20,7 +20,9 @@
     align-items: center;
     /* 
     center: center all the element in the container
-    space-between: equally distribute the space between all the elements
+    space-between: equally divide the leftover the space between all the elements
+    if there are only two elements, 
+    this will send them to the opposite sides of the container
     */
     justify-content: center;
     gap: 30px;
