@@ -1,0 +1,45 @@
+.container1 {
+    font-family: sans-serif;
+    background-color: #ddd;
+    font-size: 40px;
+    margin: 40px;
+}
+
+.container2 {
+    display: none;
+
+    font-family: sans-serif;
+    background-color: black;
+    font-size: 40px;
+    margin: 100px;
+
+    width: 1000px;
+    height: 600px;
+}
+
+
+.--1 {
+    background-color: aqua;
+}
+.--2 {
+    background-color: blue;
+}
+.--3 {
+    background-color: red;
+    height: 150px;
+}
+.--4 {
+    background-color: violet;
+}
+.--5 {
+    background-color: yellow;
+}
+.--6 {
+    background-color: green;
+}
+.--7 {
+    background-color: pink;
+}
+.--8 {
+    background-color: orange;
+}
