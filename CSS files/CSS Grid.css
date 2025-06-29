@@ -1,3 +1,26 @@
+/* 
+row and column UNITS
+
+px: a fixed size
+fr: 
+in column: allows the elements to grow to occupy all the availible space
+in row: stretch all the elements in the grid to match the tallest element
+auto: makes the element only take up the space it needs
+
+change location of a element in the grid
+grid-column
+grid-row
+
+1/3 : from gridline 1 to gridline 3
+1 : from gridline 1 and take up the original space
+1/span 2 : from gridline 1 and take up 2 grid
+2/-1 : start from gridline 2 and take up the rest of the row or column
+1/-1 : take up the entire row or column
+these two works because 
+the gridlines from the left and top start at 1
+the gridlines from the right and buttom start at -1
+
+*/
 .container1 {
     font-family: sans-serif;
     background-color: #ddd;
@@ -11,10 +34,12 @@
     to fit all the elements */
     /* every element in the same row will be the same height 
     as the tallest element in the row */
-    grid-template-columns: 250px 250px 150px 150px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*                number of colums  size of the columns */
+    /* grid-template-columns: repeat(4, 1fr); */
     /* this is for rows */
     /* if an element have an already defined size it will not stretch */
-    grid-template-rows: 300px 200px;
+    grid-template-rows: repeat(2, 1fr);
     /* this is the only to add space between grid
     margin won't work */
     /* gap: 30px */
@@ -34,12 +59,8 @@
     height: 600px;
 }
 
-
 .--1 {
     background-color: aqua;
-}
-.--2 {
-    background-color: blue;
 }
 .--3 {
     background-color: red;
@@ -59,4 +80,18 @@
 }
 .--8 {
     background-color: orange;
+    /* this change the location of this element
+    the rest of the elements will be automaticly push to the next location */
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.--2 {
+    background-color: blue;
+    /* this also works 
+    if we change the ending position to more than a grid away
+    this element will occupy multiple grids */
+    grid-column: 1;
+    /* we can specify how many grid it takes with "span" 
+    by setting the ending value to -1 it makes it span the entire row */
+    grid-row: 2 / span 1;
 }
