@@ -45,10 +45,11 @@ the gridlines from the right and buttom start at -1
     /* gap: 30px */
     column-gap: 30px;
     row-gap: 60px;
+    /* display: none; */
 }
 
 .container2 {
-    display: none;
+    /* display: none; */
 
     font-family: sans-serif;
     background-color: black;
@@ -57,6 +58,18 @@ the gridlines from the right and buttom start at -1
 
     width: 1000px;
     height: 600px;
+
+    display: grid;
+    grid-template-columns: 125px 200px 125px;
+    grid-template-rows: 250px 100px;
+    gap: 50px;
+
+    /* for all the grid */
+    justify-content: center;
+    align-content: center;
+    /* for the content in the grid */
+    align-items: center;
+    justify-items: center;
 }
 
 .--1 {
@@ -65,6 +78,7 @@ the gridlines from the right and buttom start at -1
 .--3 {
     background-color: red;
     height: 150px;
+
 }
 .--4 {
     background-color: violet;
