@@ -31,7 +31,28 @@ There are 10 main components of Web Design
             for normal text 4.5:1
             for large text(18px+) 3:1
 3. Images/Illustraions
+    1. use them to support the message and story of the website
+    2. perfer original images
+    3. show real people for user to connect to
+    4. crop the image to fit the website
+    5. combining photos, illustraions, and patterns
+    6. text on image
+        1. darken the entire image
+        2. darken part of the image
+        3. position text into a neutral area
+        4. put the text in a box
+    7. for high res screens we need to the size of the image size x2
+    8. compress images for better performance
+    9. side by side images have the same dimensions
 4. Icons
+    1. get good icon pack
+    2. NEVER fix icon packs
+    3. don't use .png or .jpg icons, you can't scale them
+    4. provide visual assistence
+    5. feature block
+    6. use as bullet points
+    7. same color as text
+        to draw attention use a different color
 5. Shadows
 6. Border Radius
 7. Whitespace
