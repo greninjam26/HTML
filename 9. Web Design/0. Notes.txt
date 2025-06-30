@@ -54,6 +54,16 @@ There are 10 main components of Web Design
     7. same color as text
         to draw attention use a different color
 5. Shadows
+    1. allows 3D effects
+    2. don't need Shadows
+    3. don't use it on everything
+    4. light shadow, don't make it too dark is it unnatural
+    5. small elements with small shadows to draw attention
+    6. medium shadow is to use to make a block and cards to stand out
+    7. large shadow is used when we want to make the element looks like 
+        it is floating above the website
+    8. create hover effects for buttons
+    9. makes the element glow can be archieved with colored shadow
 6. Border Radius
 7. Whitespace
 8. Visual Hierarchy
