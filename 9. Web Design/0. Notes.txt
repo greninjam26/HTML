@@ -67,6 +67,16 @@ There are 10 main components of Web Design
 6. Border Radius
     1. make the website less serious
 7. Whitespace
+    1. right amount makes the website looks clearn, modern, and polished
+    2. create invisible relationship between elements in a website
+        1. a lot of space between sections
+        2. space between groups of element but not as much
+        3. space between elements
+    3. use white space not lines
+    4. the more the element belong together, the less white space there should be
+    5. start will a lot of white space, then remove it later
+    6. make the white space match the other design choices. 
+        big text and elements have more whitespace
 8. Visual Hierarchy
 9. User Experience
 10. Components/Layout
