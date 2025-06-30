@@ -1,0 +1,11 @@
+There are 10 main components of Web Design
+1. Typography
+2. Colors
+3. Images/Illustraions
+4. Icons
+5. Shadows
+6. Border Radius
+7. Whitespace
+8. Visual Hierarchy
+9. User Experience
+10. Components/Layout
