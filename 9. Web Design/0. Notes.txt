@@ -1,5 +1,20 @@
 There are 10 main components of Web Design
 1. Typography
+    1. Use only good and popular typefaces and play it safe
+        sans-serif: Inter, Open Sans, Roboto, Montserrat, Work Sans, Lato
+        serif: Merriweather, Aleo, Playfair Display, Cormorant, Cardo, Lora
+    2. it's ok to use only one typefaces, limit to two
+    3. normal text should be between 16px and 32px for "normal" text
+    4. for longer text do 20px or bigger so it is easier to read
+    5. for headlines can do 50px+ and bold 600+
+    6. font weight never go below 400(regular)
+    7. make sure there are less than 75 character per line
+    8. for normal text do line height of 1.5 to 2. for headlines do below 1.5
+        the smaller or longer the text is the bigger the line height. 
+    9. if the title looks unnatural lower the letter space. 
+    10. for short titles try bold, small, all cap, and increase letter spacing
+    11. never justifying text
+    12. never center lonf text
 2. Colors
 3. Images/Illustraions
 4. Icons
