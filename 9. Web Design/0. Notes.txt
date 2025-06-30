@@ -16,6 +16,11 @@ There are 10 main components of Web Design
     11. never justifying text
     12. never center lonf text
 2. Colors
+    1. choose a good color tone, don't use random or CSS named ones
+        Open Color : designed for colors
+        tailwindcss framework have good colors
+        flat ui colors 2 jave nive beginner colors
+    2. check styles folder for color palette
 3. Images/Illustraions
 4. Icons
 5. Shadows
