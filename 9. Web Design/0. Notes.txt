@@ -65,6 +65,7 @@ There are 10 main components of Web Design
     8. create hover effects for buttons
     9. makes the element glow can be archieved with colored shadow
 6. Border Radius
+    1. make the website less serious
 7. Whitespace
 8. Visual Hierarchy
 9. User Experience
