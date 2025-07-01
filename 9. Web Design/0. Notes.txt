@@ -78,5 +78,19 @@ There are 10 main components of Web Design
     6. make the white space match the other design choices. 
         big text and elements have more whitespace
 8. Visual Hierarchy
+    1. drawing attention to the important element on a website
+    2. most important is at the top of the page
+    3. images draw a lot of attention
+    4. how to emphasize different importance:
+        1. different font sizes, font weight, color, and whitespace
+        2. use border, background color, or shadow
+        3. de-emphasize the other components
+    5. elements to emphasize:
+        1. Titles
+        2. Sub-titles
+        3. Links
+        4. Buttons
+        5. Data points
+        6. Icons
 9. User Experience
 10. Components/Layout
