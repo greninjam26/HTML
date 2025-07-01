@@ -93,4 +93,17 @@ There are 10 main components of Web Design
         5. Data points
         6. Icons
 9. User Experience
+    1. make the website site easy to use for the users
+    2. don't make it too complicated
+    3. CALL TO ACTION, make this button very prominent
+    4. ONLY use blue and underline for links
+    5. animations should have a purpose and fast(200ms to 500ms)
+    6. clear headlines
+    7. only include relative information
+    8. simple words that everyone understands
+    9. ways to break up long texts:
+        subheading
+        images
+        block quotes
+        bullet points
 10. Components/Layout
