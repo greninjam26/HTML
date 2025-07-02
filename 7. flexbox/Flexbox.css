@@ -5,6 +5,7 @@
     margin: 40px;
 
     /* FlexBox */
+    /* we can change flex-direction to column and make everything vertical */
     /* all the order default is always 0 */
     /* flex items are the child elements of this container
     everything is as tall as the tallest one(so the height is 150px like --3) */
