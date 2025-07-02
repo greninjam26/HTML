@@ -1,3 +1,6 @@
+First Personlity of the website: 
+    seven different ones in the Style folder
+    1. 
 There are 10 main components of Web Design
 1. Typography
     1. Use only good and popular typefaces and play it safe
