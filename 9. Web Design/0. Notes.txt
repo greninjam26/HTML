@@ -110,3 +110,6 @@ There are 10 main components of Web Design
         block quotes
         bullet points
 10. Components/Layout
+    1. use common elemens and components to convey the needed information
+    2. using layout patterns to format the components
+    3. then put all the different layout areas together to form the final page. 
