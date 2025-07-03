@@ -53,6 +53,10 @@ this compeletly removes the elements from the screen
     margin: 0;
     padding: 0;
 }
+html {
+    /* always do percentage so if the user want to change the font size of the website it will still work */
+    font-size: 62.5%;
+}
 h1 {
     text-transform: uppercase;
     font-style: italic;
@@ -200,4 +204,17 @@ button {
     to make this better check the body...*/
     right: 10%;
     bottom: 10%;
+}
+
+.test {
+    background-color: red;
+    padding: 100px;
+    /* width: 1000px; */
+    /* If the container width is larger than the specified max width, then the element will be equal to the specified max width. If the container width is less than the specified max width, then the width will be 100% of the container width.  */
+    /* max-width: 1000px; */
+    
+    /* DEFAULT: 1rem = 16px */
+    /* this can only changed bu doing font-size in html */
+    /* 50 rem = 800px */
+    max-width: 50rem;
 }
