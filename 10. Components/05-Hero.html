@@ -3,16 +3,75 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet"
+        />
         <title>Omifood Hero Section</title>
-        <style></style>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: "Rubik", sans-serif;
+                color: #444;
+            }
+
+            .container {
+                width: 1200px;
+                margin: 0 auto;
+            }
+            header {
+                background-color: aqua;
+                height: 100vh;
+            }
+            nav {
+                font-size: 20px;
+                font-weight: 700;
+                display: flex;
+                justify-content: space-between;
+                background-color: green;
+            }
+            h1 {
+                font-size: 52px;
+                margin-bottom: 32px;
+            }
+            p {
+                font-size: 20px;
+                line-height: 1.6;
+                margin-bottom: 48px;
+            }
+
+            .btn:link,
+            .btn:visited {
+                font-size: 20px;
+                font-weight: 600;
+                text-decoration: none;
+                color: #fff;
+                background-color: #e67e22;
+                display: inline-block;
+                padding: 16px 32px;
+                border-radius: 9px;
+            }
+            section {
+                font-size: 44px;
+                margin-bottom: 48px;
+                padding: 96px 0;
+                background-color: red;
+            }
+        </style>
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="container">
                 <div>LOGO</div>
                 <div>NAVIGATION</div>
             </nav>
-            <div>
+            <div class="container">
                 <h1>A healthy meal delivered to your door, every single day</h1>
                 <p>
                     The smart 365-days-per-year food subscription that will make
@@ -23,7 +82,7 @@
             </div>
         </header>
         <section>
-            <div>
+            <div class="container">
                 <h2>Some Random Heading</h2>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
