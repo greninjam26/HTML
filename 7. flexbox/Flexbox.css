@@ -63,6 +63,9 @@
     */
     /* flex-grow: 1; */
     flex: 1;
+
+    /* this makes the element take up 50% of the flexbox (if there are space) */
+    flex: 50%;
 }
 
 .--1 {
